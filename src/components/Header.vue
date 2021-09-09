@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="header d-flex"></header>
+    <header class="header d-flex text-center">ciao</header>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default { name: "Header" };
 
 <style lang="scss">
 .header {
-  height: 70px;
+  height: 50px;
   background-color: grey;
 }
 </style>

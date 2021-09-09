@@ -19,4 +19,7 @@ export default {
 
 <style lang="scss">
 @import "scss/style.scss";
+body {
+  background-color: rgb(1, 46, 129);
+}
 </style>
