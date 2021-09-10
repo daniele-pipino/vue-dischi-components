@@ -1,9 +1,10 @@
 <template>
-  <div class="album-card text-center">
+  <div class="album-card text-center mx-auto">
     <img :src="album.poster" alt="album.title" class="img-fluid" />
     <p class="m-0 title">{{ album.title }}</p>
     <p class="m-0 artist">{{ album.author }}</p>
     <p class="m-0 year">{{ album.year }}</p>
+    <p>{{ album.genre }}</p>
   </div>
 </template>
 

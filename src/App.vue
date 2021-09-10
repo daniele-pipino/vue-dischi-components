@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Header />
-    <Main />
+    <Header @findValue="searchValue" />
+    <Main :selectValue="selectValue" />
   </div>
 </template>
 
@@ -13,6 +13,16 @@ export default {
   components: {
     Header,
     Main,
+  },
+  data() {
+    return {
+      selectValue: "",
+    };
+  },
+  methods: {
+    searchValue(value) {
+      this.selectValue = value;
+    },
   },
 };
 </script>
